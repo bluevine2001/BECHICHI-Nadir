@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Test</title>
+</head>
+<body>
+
+	<form>
+	<!--<select name="selecteur" id="tkt">
+		<option value="0">00h</option>
+		<option value="1">1h</option>
+		<option value="2">2h</option>
+		<option value="3">3h</option>
+		<option value="4">4h</option>
+		<option value="5">5h</option>
+		<option value="6">6h</option>
+		<option value="7">7h</option>
+		<option value="8">8h</option>
+		<option value="9">9h</option>
+		<option value="10">10h</option>
+		<option value="11">11h</option>
+		<option value="12">12h</option>
+		<option value="13">13h</option>
+		<option value="14">14h</option>
+		<option value="15">15h</option>
+		<option value="16">16h</option>
+		<option value="17">17h</option>
+		<option value="18">18h</option>
+		<option value="19">19h</option>
+		<option value="20">20h</option>
+		<option value="21">21h</option>
+		<option value="22">22h</option>
+		<option value="23">23h</option>
+	</select>-->
+	<input type="text">
+	<button id="btn" onclick="checki();">hello</button>
+</form>
+	<div id="price">
+		
+	</div>
+	<script>
+		var hours = document.getElementById('**MainContent_**tkt').value;
+		var distance = 10;
+		console.log(hours);
+		function checki() {
+			// body...
+			if(8 <= hours && hours<=18) {
+			document.getElementById('price').innerHTML='vous devez donc payer: ' + distance*2 + '€';
+		}
+		if (19 <= hours && hours<=23) {
+			document.getElementById('price').innerHTML='vous devez donc payer: ' + distance*3 + '€';
+		}
+		if (0 <= hours && hours<=7) {
+			document.getElementById('price').innerHTML='vous devez donc payer: ' + distance*4 + '€';
+		}
+		}
+		
+	</script>
+</body>
+</html>

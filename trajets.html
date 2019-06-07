@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<title>Nadir BECHICHI - Chauffeur de Taxi</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="trajets-app/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<script type="text/javascript" src="index.js"></script>
+</head>
+<body>
+	<div id="wrapper">
+	<header class=".sticky" style="position: fixed;width: 100%;">
+		<div class="container">
+			<div id="branding">
+				<h2>ALLO TAXI</h2>
+			</div>
+			<nav>
+				<ul>
+				<li><a href="index.html" style="color: #e8491d;">Acceuil</a></li>
+					<li><a href="trajets.html">Trajets</a></li>
+					<li><a href="contacts.html">Contacts</a></li>
+				</ul>
+			</nav>
+			<div id="signup">
+				<a href="#" onclick="revealsignscreen();">Connexion/Inscription</a>
+			</div>
+	</div>
+	</header>
+
+		<div id="sign-screen">
+			<div id="formp">
+				<h1 style="margin-left:17%;margin-bottom: 2%;padding: 20px;font-size: 45px;">S'inscrire</h1>
+				<a href="#" onclick="closee();" id="close-btn">X</a>
+				<div id="deplacement">
+			<form>
+				<div id="email">
+					<input type="text" name="email" placeholder="Email">
+				</div>
+			<div id=password>
+				<input type="password" name="password" placeholder="Mot de passe">
+			</div>
+			<div id="password2">
+				<input type="password" name="password2" placeholder="Confirmer mot de passe">
+			</div>
+			<div id="sub-btn">
+				<a href="#">OK</a>
+			</div>
+			<a href="#" style="font-size: 10px;color: black;margin-left: 4%;padding-top: 24px;"> Déjà membre ? <span style="font-weight: bold;">Connexion</span></a>
+			</form>
+		</div>
+		<div id="znd-form">
+			<a href="#" style="	background-color: #3B5998;"> Se connecter avec Facebook</a><br>
+			<a href="#" style="	background-color: #DB4437;"> Se connecter avec Google+</a>
+		</div>
+	</div>
+</div>
+	
+<section id="trajets-app">	
+	<div id="container">
+<div id="floating-panel">
+	<h1>Calcul de Trajets</h1>
+    <input type="text" id="start" placeholder="Addresse de départ"><br><br>
+    <input type="text" id="end" placeholder="addresse d'arrivée"><br><br>
+    <label>Quand voulez-vous partir ?</label>
+    <select id="hours">
+    	<option value="8">08h</option>
+    	<option value="9">09h</option>
+    	<option value="10">10h</option>
+    	<option value="11">11h</option>
+    	<option value="12">12h</option>
+    	<option value="13">13h</option>
+    	<option value="14">14h</option>
+    	<option value="15">15h</option>
+    	<option value="16">16h</option>
+    	<option value="17">17h</option>
+    	<option value="18">18h</option>
+    	<option value="19">19h</option>
+    	<option value="20">20h</option>
+    	<option value="21">21h</option>
+    	<option value="22">22h</option>
+    	<option value="23">23h</option>
+    	<option value="0">00h</option>
+    	<option value="1">01h</option>
+    	<option value="2">02h</option>
+    	<option value="3">03h</option>
+    	<option value="4">04h</option>
+    	<option value="5">05h</option>
+    	<option value="6">06h</option>
+    	<option value="7">07h</option>
+    </select>
+
+     <select id="minutes">
+     	<option value="20">00</option>
+    	<option value="8">5</option>
+    	<option value="9">10</option>
+    	<option value="10">15</option>
+    	<option value="11">20</option>
+    	<option value="12">25</option>
+    	<option value="13">30</option>
+    	<option value="14">35</option>
+    	<option value="15">35</option>
+    	<option value="16">40</option>
+    	<option value="17">45</option>
+    	<option value="18">50</option>
+    	<option value="19">55</option>
+    </select>
+    <input type="button" name="valider" value="valider">
+
+    <div id="distance"></div>
+    <div id="price"></div>
+</div>
+<div id="map"></div>
+
+</div>
+</section>
+
+		<footer>
+			<div class="container" style="border-bottom: 2px solid #fff;padding-bottom: 5%;">
+				<div class="boxes2">
+				<div id="box4">
+					<h3>Devis Course :</h3><br><br>
+					<a href="trajets.html" id="squared-btn">Cliquez ici</a>
+				</div>
+
+				<div id="box5">
+					<h3>Nos réseaux sociaux :</h3>
+					<a href="https://www.facebook.com" target="_blank"><img src="img/facebook.png" style="background-color: #fff;border-radius: 5px;"></a>
+					<a href="https://www.instagram.com" target="_blank"><img src="img/instagram.png" style="background-color: #fff;border-radius: 5px"></a>
+					<a href="https://www.twitter.com" target="_blank"><img src="img/twitter.png" style="background-color: #fff;border-radius: 5px" ></a>
+				</div>
+
+				<div>
+					<h3>Contactez-nous</h3>
+					<p>	
+						95 rue André CITROEN<br>
+						69740 GENAS<br><br>
+						Tel: 07.58.28.61.19<br>
+						nadir696@live.fr
+					</p><br><br>
+					<h2 style="color: #e8491d;">ALLO TAXI</h2>
+				</div>
+			</div>
+			
+			</div>
+			<p style="padding: 10px;">© 2019 par BLUEVINE. créer pour MR.Bechichi Nadir</p>
+		</footer>
+	</div>
+	<script src="trajets-app/script.js"></script>
+<script async defer
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDZIexrklrGYVNAJV_cj_TFD9lhMIKy51o&callback=initMap">
+</script>
+</body>
+
+</html>
