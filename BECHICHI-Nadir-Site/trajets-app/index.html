@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>Directions Service</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Anton|Francois+One|Lobster" rel="stylesheet">
+  </head>
+  <body>
+    <div id="floating-panel">
+
+    <h1>Calcul de Trajets</h1>
+    
+    <input type="text" id="start" placeholder="Addresse de départ"><br><br>
+      
+    <input type="text" id="end" placeholder="addresse d'arrivée"> 
+    
+    <div id="distance"></div>
+    <div id="price"></div>
+    </div>
+    <div id="map"></div>
+    
+    <script src="script.js"></script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDZIexrklrGYVNAJV_cj_TFD9lhMIKy51o&callback=initMap">
+    </script>
+  </body>
+</html>

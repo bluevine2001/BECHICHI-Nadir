@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<title>allotaxi.com</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="media-queries.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<script type="text/javascript" src="index.js"></script>
+</head>
+<body>
+	<div id="wrapper">
+	<header class="sticky" id="header">
+		<div class="container">
+			<div id="branding">
+				<h2>BECHICHI NADIR</h2>
+			</div>
+			<nav>
+				<ul>
+				<li><a href="index.html" id="active">Acceuil</a></li>
+					<li><a href="trajets.html">Trajets</a></li>
+					<li><a href="contacts.html">Contacts</a></li>
+					<div id="signup">
+					<a href="#" onclick="revealsignscreen();">Connexion/Inscription</a>
+					</div>
+				</ul>
+			</nav>
+			<!--<div id="signup">
+				<a href="#" onclick="revealsignscreen();">Connexion/Inscription</a>
+			</div>-->
+	</div>
+	</header>
+
+		<div id="sign-screen">
+			<div id="formp">
+				<h1 id="hidentitle" style="">S'inscrire</h1>
+				<a href="#" onclick="closee();" id="close-btn">X</a>
+				<div id="deplacement">
+			<form>
+				<div id="email">
+					<input type="text" name="email" placeholder="Email">
+				</div>
+			<div id=password>
+				<input type="password" name="password" placeholder="Mot de passe">
+			</div>
+			<div id="password2">
+				<input type="password" name="password2" placeholder="Confirmer mot de passe">
+			</div>
+			<div id="sub-btn">
+				<a href="#">OK</a>
+			</div>
+			<a href="#" id="signinlink"> Déjà membre ? <span id="connexspan">Connexion</span></a>
+			</form>
+		</div>
+		<div id="znd-form">
+			<a href="#" id="fb"> Se connecter avec Facebook</a><br>
+			<a href="#" id="go"> Se connecter avec Google+</a>
+		</div>
+	</div>
+</div>
+		<section id="main-image">
+			<div class="container">
+				<h1 id="firstbigtitle">Meilleur service de Taxi à Lyon</h1>
+
+				<div id="boxes">
+				<div class="box" id="box1">
+					<img src="img/dollar.png">
+					<h3>Pas Chère</h3>	
+				</div>
+					
+				<div class="box" id="box2">
+					<img src="img/star.png">
+					<h3>Service de Qualité</h3>
+					
+				</div>
+
+				<div class="box" id="box3">
+					<img src="img/heart.png">
+					<h3>Apprécié de nombreux<br>clients</h3>
+				</div>
+			</div>
+			</div>
+		</section>
+
+		<section id="trajects-page-info">
+			<div class="container">
+				<h1>Nous vous prenons en charges<br>de l'aller au retour </h1>
+				<p>Nous vous acceuillons dans de belles voitures<br>tout équipés pour un prix abordable.</p>
+				<a href="trajets.html" id="orange-round-btn">Essayez-nous</a>
+			</div>
+		</section>
+
+		<section id="questions-page">
+			<div class="container">
+				<h1>Vous avez des Questions ?</h1>
+				<a href="contacts.html" id="white-round-btn">Contactez-nous</a>
+			</div>
+		</section>
+
+		<footer>
+			<div class="container" id="bdp">
+				<div class="boxes2">
+				<div id="box4">
+					<h3>Devis Course :</h3><br><br>
+					<a href="trajets.html" id="squared-btn">Cliquez ici</a>
+				</div>
+
+				<div id="box5">
+					<h3>Nos réseaux sociaux :</h3>
+					<a href="https://www.facebook.com" target="_blank"><img src="img/facebook.png" id="img1"></a>
+					<a href="https://www.instagram.com" target="_blank"><img src="img/instagram.png" id="img2"></a>
+					<a href="https://www.twitter.com" target="_blank"><img src="img/twitter.png" id="img3"></a>
+				</div>
+
+				<div>
+					<h3>Contactez-nous</h3>
+					<p>	
+						95 rue André CITROEN<br>
+						69740 GENAS<br><br>
+						Tel: 07.58.28.61.19<br>
+						nadir696@live.fr
+					</p><br><br>
+					<h2 id="lsttitle">ALLO TAXI</h2>
+				</div>
+			</div>
+			
+			</div>
+			<p id="btmtxt">© 2019 par BLUEVINE. créer pour MR.Bechichi Nadir</p>
+		</footer>
+	</div>
+</body>
+
+</html>

@@ -1,0 +1,46 @@
+      #map {
+        height: 50%;
+        width: 45%;
+        float: right;
+        margin-right: 5%;
+        margin-top: 10%;
+        display: block;
+        position: absolute;
+        left: 48%;
+      }
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      #floating-panel {
+        position: absolute;
+        top: 18%;
+        left: 25%;
+        height: 41%;
+        width: 20%;
+        padding-top: 5%;
+        border: 3px solid #EFF1F2;
+        text-align: center;
+      }
+      input[type="text"]
+      {
+        width: 95%;
+        height: 10%;
+        border-radius: 5px;
+        border:1px solid grey;
+        font-size: 20px;
+      }
+      #distance
+      {
+        justify-content: center;
+        font-size: 30px;
+      }
+      h1
+      {
+        font-family: 'Francois One', sans-serif;
+      }
+      #trajets-app
+      {
+        height: 650px;
+}
