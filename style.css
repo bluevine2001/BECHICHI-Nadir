@@ -1,0 +1,279 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+html {
+  background-color: #000;
+}
+
+/* Global */
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+
+header {
+  background-color: #ffffff;
+  color: black;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: 5px solid #e8491d;
+}
+header a {
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+header a:hover {
+  color: #e8491d;
+}
+
+header li {
+  /*float: left;*/
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding {
+  float: left;
+}
+header #branding h2 {
+  margin: 0;
+  color: #e8491d;
+}
+header nav {
+  float: right;
+  margin-top: 10px;
+}
+
+.highlight,
+header .current a {
+  color: #e8491d;
+  font-weight: bold;
+}
+
+/* Showcase */
+#showcase {
+  min-height: 700px;
+  background: url("img/536.jpg") no-repeat center/cover;
+  text-align: center;
+  color: #fff;
+}
+
+#showcase h1 {
+  margin-top: 100px;
+  font-size: 55px;
+  margin-bottom: 10px;
+}
+
+#showcase p {
+  font-size: 20px;
+}
+
+/* Boxes */
+
+#boxes {
+  margin-top: 20px;
+}
+
+#boxes .box {
+  float: left;
+  text-align: center;
+  width: 30%;
+  padding: 10px;
+  background-color: #f4f4f4;
+  color: #000;
+  height: 130px;
+  padding-top: 50px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+}
+
+#boxes .box img {
+  width: 30px;
+}
+
+/* section traject-page-infos */
+
+#trajects-page-info {
+  height: 550px;
+  background-color: #ededed;
+  text-align: center;
+}
+#trajects-page-info h1 {
+  padding: 10px;
+  font-size: 40px;
+  padding-top: 100px;
+  font-family: "Open sans", sans-serif;
+}
+#trajects-page-info p {
+  line-height: 20px;
+}
+#orange-round-btn {
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  background-color: #e8491d;
+  display: block;
+  width: 200px;
+  padding: 13px;
+  margin-left: 43%;
+  margin-top: 20px;
+  border-radius: 17px;
+}
+
+/* section question page */
+
+#white-round-btn {
+  color: #000;
+  text-align: center;
+  background-color: #fff;
+  display: block;
+  width: 200px;
+  padding: 13px;
+  margin-left: 43%;
+  margin-top: 20px;
+  border-radius: 17px;
+}
+#questions-page {
+  height: 350px;
+  background-color: #333333;
+}
+#questions-page h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 40px;
+  padding: 10px;
+  margin-top: 100px;
+}
+
+#sub-btn a {
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  background-color: #e8491d;
+  display: block;
+  width: 200px;
+  padding: 7px;
+  margin-left: 0.5%;
+  margin-top: 20px;
+}
+
+/* footer */
+
+footer {
+  background-color: #111111;
+  color: #fff;
+  text-align: center;
+  height: 500px;
+}
+.boxes2 {
+  padding-top: 0;
+  margin: 0;
+  margin-left: 20%;
+  margin-top: 5%;
+  margin-left: 5px;
+}
+.boxes2 .box2 {
+  float: left;
+  justify-content: center;
+  width: 30%;
+  padding: 10px;
+  background-color: #fff;
+  color: #000;
+  margin-left: 5px;
+  height: 200px;
+}
+#links {
+  padding-top: 15%;
+  justify-content: center;
+}
+#links a {
+  padding-right: 15px;
+  cursor: pointer;
+}
+#squared-btn {
+  color: #fff;
+  font-weight: bold;
+  background-color: #e8491d;
+  display: block;
+  width: 150px;
+  padding: 13px;
+  margin-left: 27%;
+  margin-top: 20px;
+}
+#btmtxt {
+  padding: 10px;
+}
+#lsttitle {
+  color: #e8491d;
+}
+
+/* media queries */
+
+@media (max-width: 768px) {
+  header #branding,
+  header nav,
+  header nav li,
+  #boxes .box,
+  .boxes2 .box2 {
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+
+  header {
+    padding-bottom: 20px;
+  }
+  header nav {
+    margin-left: -20px;
+  }
+
+  #showcase h1 {
+    margin-top: 40px;
+  }
+  .boxes2 {
+    padding-left: -20px;
+  }
+  .boxes2 .box2 {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  #squared-btn {
+    display: block;
+  }
+  #squared-btn,
+  #orange-round-btn,
+  #white-round-btn {
+    margin: 20px auto;
+  }
+}
+@media (max-width: 425px) {
+  header nav li {
+    padding: 0 10px 0 10px;
+  }
+  header nav {
+    margin-left: 0px;
+  }
+  .box2 p,
+  .box2 a,
+  .box2 h3 {
+    margin-left: -0.5px;
+  }
+}
