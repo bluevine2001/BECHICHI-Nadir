@@ -14,14 +14,13 @@
         padding: 0;
       }
       #floating-panel {
-        position: absolute;
-        top: 18%;
-        left: 25%;
-        height: 41%;
-        width: 20%;
-        padding-top: 5%;
-        border: 3px solid #EFF1F2;
-        text-align: center;
+          margin-top: 10%;
+          margin-left: 10%;
+          height: 100%;
+          width: 27%;
+          padding: 5%;
+          border: 3px solid #EFF1F2;
+          text-align: center;
       }
       input[type="text"]
       {
