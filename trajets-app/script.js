@@ -39,7 +39,6 @@ function calculateAndDisplayRoute(directionsService, directionsDisplay) {
       } else {
         //window.alert('Directions request failed due to ' + status);
       }
-    })
     function tarifs(response, status){
       var hours = document.querySelector('#hours');
       if(7<=hours.value<=19){
@@ -56,5 +55,5 @@ function calculateAndDisplayRoute(directionsService, directionsDisplay) {
           ((response.routes[0].legs[0].distance.value / 1000) * 2.50).toFixed(2) + "€";
       }
     }
-  );
+  ));
 }
