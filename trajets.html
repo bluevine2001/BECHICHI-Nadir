@@ -34,7 +34,7 @@
     <input type="text" id="start" placeholder="Addresse de départ"><br><br>
     <input type="text" id="end" placeholder="addresse d'arrivée"><br><br>
     <label>Quand voulez-vous partir ?</label>
-    <select id="hours" onchange="tarifs()">
+    <select id="hours">
     	<option value="8">08h</option>
     	<option value="9">09h</option>
     	<option value="10">10h</option>
@@ -76,7 +76,7 @@
     	<option value="18">50</option>
     	<option value="19">55</option>
     </select>
-    <input type="button" name="valider" value="valider">
+    <input type="button" name="valider" value="valider" onclick="tarifs();">
 
     <div id="distance"></div>
     <div id="price"></div>
