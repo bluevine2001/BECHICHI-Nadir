@@ -55,5 +55,5 @@ function calculateAndDisplayRoute(directionsService, directionsDisplay) {
           ((response.routes[0].legs[0].distance.value / 1000) * 2.50).toFixed(2) + "€";
       }
     }
-  ));
+    });
 }
