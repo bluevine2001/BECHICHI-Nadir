@@ -39,7 +39,7 @@ function calculateAndDisplayRoute(directionsService, directionsDisplay) {
       } else {
         //window.alert('Directions request failed due to ' + status);
       }
-    function tarifs(response, status){
+    function tarifs{
       var hours = document.querySelector('#hours');
       if(7<=hours.value<=19){
         document.getElementById("price").innerHTML =
